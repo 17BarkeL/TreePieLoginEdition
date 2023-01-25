@@ -1,0 +1,88 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Poppins";
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 65%;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(222, 222, 222);
+    box-shadow: rgba(222, 222, 222, 1) 0 0;
+    position: relative;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    font-size: 2rem;
+}
+
+.form input {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2rem;
+    z-index: 999;
+    width: 20rem;
+    height: auto;
+}
+
+.buttons button {
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255);
+}
+
+.buttons button:hover {
+    background-color: rgb(235, 235, 235);
+}
