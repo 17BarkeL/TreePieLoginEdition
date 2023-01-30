@@ -50,6 +50,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="static\app.js" />
     <Content Include="static\style.css" />
     <Content Include="static\index.html" />
   </ItemGroup>

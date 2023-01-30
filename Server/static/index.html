@@ -6,6 +6,7 @@
     <title>TreePieLoginEdition</title>
     <link href="./style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="./app.js" defer></script>
 </head>
 <body>
     <img src="./logo.png" alt="YeA BOIII" id="logo" />
@@ -22,10 +23,11 @@
                     <input type="password" name="password" placeholder="password..." value="" id="password" />
                 </label>
             </div>
+            <p id="message"></p>
             <div class="buttons">
-                <button id="login">Login</button>
-                <button id="login">Reset password</button>
-                <button id="login">Create account</button>
+                <button id="login" onclick="login()">Login</button>
+                <button id="reset-password" onclick="reset()">Reset password</button>
+                <button id="create-account" onclick="createUser()">Create account</button>
             </div>
         </div>
     </main>

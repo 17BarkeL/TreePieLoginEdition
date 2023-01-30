@@ -79,10 +79,14 @@ h1 {
     padding: 1rem 2rem;
     margin: 0 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
     background-color: rgb(255, 255, 255);
 }
 
 .buttons button:hover {
     background-color: rgb(235, 235, 235);
+}
+
+#message {
+    font-size: 2rem;
 }
