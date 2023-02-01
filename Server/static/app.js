@@ -8,7 +8,7 @@
 
 timesLogoClicked = 0;
 
-logo.addEventListener(() => {
+logo.addEventListener("click", () => {
     timesLogoClicked++;
 
     if (timesLogoClicked == 50) {
