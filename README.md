@@ -1,4 +1,4 @@
-# TreePieSocialMediaEdition
+# TreePieLoginEdition
 
 This is not affiliated with the corporation TreePie INC.
 
