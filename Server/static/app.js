@@ -1,7 +1,8 @@
 ﻿let elements = {
     message: document.querySelector("#message"),
     username: document.querySelector("#username"),
-    password: document.querySelector("#password")
+    password: document.querySelector("#password"),
+    passwordConfirm: document.querySelector("#password-confirm")
 }
 
 function reset() {
@@ -19,11 +20,13 @@ function login() {
 function checkDetails() {
     let username = elements.username.value;
     let password = elements.password.value;
+    let passwordConfirm = elements.passwordConfirm.value;
 
     try {
         presenceCheck(username, "Username cannot be empty");
         presenceCheck(password, "Password cannot be empty");
         lengthCheck(password, 4, 12, "Password must be between 4 and 12 characters");
+        if (password != passwordConfirm) { throw "Passwords must be the same" };
         elements.message.innerText = "Authenticating";
     }
 
