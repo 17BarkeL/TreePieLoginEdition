@@ -37,7 +37,7 @@ namespace Server
                 switch (request.RawUrl)
                 {
                     case "/":
-                        html = File.ReadAllText("../../static/index.html");
+                        buffer = Encoding.UTF8.GetBytes(File.ReadAllText("../../static/index.html"));
                         break;
                     default:
                         string path = "../../static" + request.RawUrl;
