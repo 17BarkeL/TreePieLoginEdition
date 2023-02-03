@@ -11,7 +11,7 @@
 <body>
     <img src="./logo.png" alt="YeA BOIII" id="logo" />
     <main>
-        <div class="hero">
+        <form class="hero" method="post">
             <h1>TreePieLoginEdition</h1>
             <div class="form">
                 <label for="username">
@@ -29,11 +29,11 @@
             </div>
             <p id="message"></p>
             <div class="buttons">
-                <button id="login" onclick="login()">Login</button>
-                <button id="reset-password" onclick="reset()">Reset password</button>
-                <button id="create-account" onclick="createUser()">Create account</button>
+                <button id="login" onclick="login()" type="submit">Login</button>
+                <button id="reset-password" onclick="reset()" type="button">Reset password</button>
+                <button id="create-account" onclick="createUser()" type="button">Create account</button>
             </div>
-        </div>
+        </form>
     </main>
 </body>
 </html>
